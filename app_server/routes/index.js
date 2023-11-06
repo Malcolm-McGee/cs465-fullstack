@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const ctrlMain = require('../controllers/main');
+const ctrMain = require('../controllers/main');
 
 /* GET home page. */
-consolele.log('Inside app_server, routes, index,.js.');
-router.get('/',ctrlMain.index);
+router.get('/', ctrMain.index);
 
 module.exports = router;
